@@ -1,5 +1,5 @@
 # Inserts a blank line between shell prompts
-add_newline = true
+add_newline = false
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
@@ -9,3 +9,25 @@ success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being
 [package]
 disabled = false
 
+# For showing entire dir path - maybe no tnecessary
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "🔌"
+discharging_symbol = "⚡"
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style):"
+style = "bold purple"
+
+
+[username]
+show_always = true
+style_root = "bold red"
+style_user = "bold yellow"
+format = "[$user]($style)@"
