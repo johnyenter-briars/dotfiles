@@ -10,3 +10,4 @@ PS1='[\u@\h \W]\$ '
 TZ='America/Chicago'
 
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"

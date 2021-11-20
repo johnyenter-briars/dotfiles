@@ -5,3 +5,8 @@ gtk*
 
 pull_dotfiles.sh
 
+pavucontrol.ini
+pulse
+systemd
+flameshot
+discord

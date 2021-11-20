@@ -40,54 +40,15 @@ color15 = ${xrdb:color15}
 dark-light = #272A2B 
 active-light = #313435
 
-[bar/eDP-1]
-tray-position = right
-monitor = eDP-1
-width =  100%
-height = 18
-padding-left =1
-padding-right =0
 
+[bar/master]
 background = ${colors.background}
 foreground = ${colors.foreground}
 bottom = false
 border-top-size = 5
 border-bottom-size = 5
-border-top-color = ${colors.background}
-border-bottom-color = ${colors.background}
-
-line-size = 1
-wm-restack = bspwm
-
-modules-left = round-left bspwm round-right empty-space  round-left polywins round-right
-modules-center =  
-modules-right = alsa round-left cpu round-right updates wlan mem xbacklight round-left time  round-right  powermenu
-font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
-font-1 = JetBrainsMono Nerd Font:size=14;4
-font-2 = Material Design Icons:style=Bold:size=9;3
-font-3 = unifont:fontformat=truetype:size=9;3
-; font-5 = "Source Han Sans CN,思源黑体 CN:size=22;3"
-font-4 = "Source Han Sans CN,思源黑体 CN:style=Regular"
-
-; font-6 = "Misc Termsyn:style=Bold:pixelsize=100:antialias=true;"
-; font-7 = "Wuncon Siji:style=Bold:pixelsize=100:antialias=true;"
-
-[bar/HDMI-1]
-dpi = 145
-tray-position = right
-monitor = HDMI-1
-width =  100%
-height = 18
-padding-left =1
-padding-right =0
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-bottom = false
-border-top-size = 5
-border-bottom-size = 5
-border-top-color = ${colors.background}
-border-bottom-color = ${colors.background}
+;border-top-color = ${colors.background}
+;border-bottom-color = ${colors.background}
 
 line-size = 1
 wm-restack = bspwm
@@ -99,7 +60,30 @@ font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono Nerd Font:size=14;4
 font-2 = Material Design Icons:style=Bold:size=9;3
 font-3 = unifont:fontformat=truetype:size=9;3
-font-4 = "Source Han Sans CN,思源黑体 CN:style=Regular:size=14"
+font-4 = "Source Han Sans CN,思源黑体 CN:style=Regular"
+
+[bar/eDP-1]
+inherit = bar/master
+tray-position = right
+monitor = eDP-1
+width =  100%
+dpi = 130
+radius = 15.5
+height = 45
+padding-left =1
+padding-right =0
+
+
+[bar/HDMI-1]
+inherit = bar/master
+dpi = 120
+tray-position = right
+monitor = HDMI-1
+width =  100%
+height = 24
+padding-left =1
+padding-right =0
+
 
 [module/polywins]
 type = custom/script

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+mouse_num=`xinput list | grep -i "Logitech Gaming Mouse G402" | grep -wv Keyboard | awk -F= '{ print $2}'| awk '{print $1}'| awk 'BEGIN{ RS = "" ; FS = "\n" }{print $1}'`
+
+xinput --set-prop $mouse_num 'libinput Accel Speed' -0.9
