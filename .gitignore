@@ -1,0 +1,6 @@
+Code*
+dconf
+gtk*
+*.bak
+
+pull_dotfiles.sh
