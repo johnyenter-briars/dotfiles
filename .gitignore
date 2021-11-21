@@ -3,7 +3,7 @@ dconf
 gtk*
 *.bak
 
-pull_dotfiles.sh
+pull_extras.sh
 
 pavucontrol.ini
 pulse
@@ -11,3 +11,4 @@ systemd
 flameshot
 discord
 neofetch
+filelightrc

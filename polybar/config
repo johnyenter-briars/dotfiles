@@ -85,16 +85,16 @@ tray-padding = 1
 
 enable-ipc = true
 
-[bar/eDP-1]
+[bar/eDP1]
 inherit = bar/master
-monitor = eDP-1
+monitor = eDP1
 dpi = 130
 
 
-[bar/HDMI-1]
+[bar/HDMI1]
 inherit = bar/master
 dpi = 120
-monitor = HDMI-1
+monitor = HDMI1
 
 
 [module/polywins]

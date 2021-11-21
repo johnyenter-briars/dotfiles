@@ -29,8 +29,8 @@ picom --experimental-backends --config /home/john/.config/picom/picom.conf &
 #echo "$hdmi_active" > ~/idk.txt
 
 if [[ ! -z "$hdmi_active" ]]; then
-   xrandr --output eDP-1 --mode 1920x1080
-   xrandr --output HDMI-1 --mode 1920x1080 --right-of eDP-1 --primary
+   xrandr --output eDP1 --mode 1920x1080
+   xrandr --output HDMI1 --mode 1920x1080 --right-of eDP1 --primary
    # xrandr --output HDMI1 --mode 1920x1080 --pos 0x0 --rotate normal --primary --right-of eDP1  --output eDP1 --mode 1920x1080 --pos 0x1080 --rotate normal
    sleep 0.1
    #xrandr --output HDMI-`1 --brightness 0.8
@@ -38,8 +38,8 @@ if [[ ! -z "$hdmi_active" ]]; then
    xrdb -merge ~/.Xresources-hdmi
    # echo "plz" > /home/john/test.txt
    # bspc monitor eDP1 -d 1 2 3 4 5 6 7 8 9 10
-   bspc monitor "eDP-1" -d I II III IV V VI VII VIII IX X
-   bspc monitor "HDMI-1" -d I II III IV V VI VII VIII IX X
+   bspc monitor "eDP1" -d I II III IV V VI VII VIII IX X
+   bspc monitor "HDMI1" -d I II III IV V VI VII VIII IX X
 
    # bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 10
 
@@ -51,8 +51,8 @@ if [[ ! -z "$hdmi_active" ]]; then
    # done
 
 else
-   xrandr --output "eDP-1" --mode 1920x1080
-   bspc monitor "eDP-1" -d I II III IV V VI VII VIII IX X
+   xrandr --output "eDP1" --mode 1920x1080
+   bspc monitor "eDP1" -d I II III IV V VI VII VIII IX X
    xrdb -merge ~/.Xresources
 fi
 
@@ -65,7 +65,7 @@ fi
 #xrandr --auto --output HDMI1 --mode 1920x1080 --right-of eDP1
 
 #set screen resolution
-#xrandr --output eDP-1 --scale 0.45x0.45
+#xrandr --output eDP1 --scale 0.45x0.45
 
 # bspc monitor -d I II III IV V VI VII VIII IX X
 
