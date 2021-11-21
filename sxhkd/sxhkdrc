@@ -28,11 +28,11 @@ XF86AudioMute
 
 #brightness down
 XF86MonBrightnessDown
-	xbacklight -dec 10
+	$HOME/.local/bin/brightnessdown
 
 #brightness up
 XF86MonBrightnessUp
-	xbacklight -inc 10
+	$HOME/.local/bin/brightnessup
 
 #screenshot
 Print
