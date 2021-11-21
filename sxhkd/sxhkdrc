@@ -16,15 +16,15 @@ super + Escape
 
 #volume up
 XF86AudioRaiseVolume
-	amixer -q sset Master 5%+
+	$HOME/.local/bin/volumeup
 
 #volume down
 XF86AudioLowerVolume
-	amixer -q sset Master 5%-
+	$HOME/.local/bin/volumedown
 
 #volume mute
 XF86AudioMute
-	amixer -D pulse set Master 1+ toggle
+	$HOME/.local/bin/volumetogglemute
 
 #brightness down
 XF86MonBrightnessDown
@@ -37,7 +37,6 @@ XF86MonBrightnessUp
 #screenshot
 Print
 	flameshot gui
-
 
 
 #
