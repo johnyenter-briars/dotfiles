@@ -20,6 +20,7 @@
 background = ${xrdb:background}
 ;foreground = #676b73 
 foreground = ${xrdb:foreground}
+;adding a comment here
 
 color0 = ${xrdb:color0}
 color1 = ${xrdb:color1}
