@@ -124,6 +124,7 @@ hicolor-icon-theme 0.17-2
 hidapi 0.11.0-1
 htop 3.1.1-1
 http-parser 2.9.4-1
+hunspell 1.7.0-3
 hwids 20210613-1
 iana-etc 20211025-1
 icu 69.1-1
@@ -171,6 +172,7 @@ lame 3.100-3
 lcms2 2.12-1
 less 1:590-1
 libaio 0.3.112-2
+libappindicator-gtk3 12.10.0.r296-1
 libarchive 3.5.2-1
 libass 0.15.2-1
 libassuan 2.5.5-1
@@ -190,6 +192,8 @@ libcroco 0.6.13-2
 libcups 1:2.3.3op2-4
 libdaemon 0.14-5
 libdatrie 0.2.13-1
+libdbusmenu-glib 16.04.0-4
+libdbusmenu-gtk3 16.04.0-4
 libdbusmenu-qt5 0.9.3+16.04.20160218-6
 libdrm 2.4.108-1
 libedit 20210910_3.1-1
@@ -215,6 +219,7 @@ libice 1.0.10-3
 libidn2 2.3.2-1
 libiec61883 1.2.0-6
 libimobiledevice 1.3.0-3
+libindicator-gtk3 12.10.1-9
 libinih 53-1
 libinput 1.19.2-1
 libjpeg-turbo 2.1.1-1
@@ -340,6 +345,7 @@ neofetch 7.1.0-2
 nerd-fonts-complete 2.1.0-8
 nettle 3.7.3-1
 nitrogen 1.6.1-4
+nordvpn-bin 3.12.1_1-1
 noto-fonts-emoji 20211101-1
 npth 1.6-3
 nspr 4.32-1
@@ -406,8 +412,11 @@ sonnet 5.88.0-1
 sound-theme-freedesktop 0.8-4
 speex 1.2.0-3
 speexdsp 1.2.0-2
+spotify-qt 3.7-1
+spotifyd 0.3.2-1
 sqlite 3.36.0-1
 srt 1.4.4-1
+startup-notification 0.12-7
 sudo 1.9.8.p2-3
 svt-av1 0.8.7-1
 sxhkd 0.6.2-1
@@ -419,7 +428,9 @@ tar 1.34-1
 tdb 1.4.5-1
 texinfo 6.8-2
 thin-provisioning-tools 0.9.0-1
+tor-browser 11.0.1-1
 tracker3 3.2.1-1
+transmission-gtk 3.00-2
 tslib 1.22-1
 ttf-font-awesome 5.15.4-1
 ttf-material-design-icons 4.0.0-1
