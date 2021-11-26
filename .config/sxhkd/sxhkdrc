@@ -80,7 +80,7 @@ super + ctrl + {m,x,y,z}
 #
 
 super + {1-9,0}
-    D={1-9.10}; \
+    D={1-9,10}; \
     bspc desktop -f "$(bspc query -D -m | sed -n "$D p")"
 
 # focus the node in the given direction
