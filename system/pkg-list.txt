@@ -60,6 +60,7 @@ dmenu 5.0-1
 dmraid 1.0.0.rc16.3-13
 dosfstools 4.2-1
 double-conversion 3.1.5-2
+dunst 1.7.1-1
 e2fsprogs 1.46.4-1
 efibootmgr 17-2
 efivar 37-4
