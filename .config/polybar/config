@@ -75,7 +75,7 @@ wm-restack = bspwm
 
 modules-left = round-left bspwm round-right empty-space
 modules-center =  
-modules-right = temperature round-left cpu round-right mem network-wlan xbacklight alsa battery-internal round-left time  round-right  powermenu
+modules-right = temperature round-left cpu round-right mem network-wlan updown xbacklight alsa battery-internal round-left time  round-right  powermenu
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono Nerd Font:size=14;4
 font-2 = Material Design Icons:style=Regular:size=9;3
@@ -580,3 +580,52 @@ ramp-volume-2 =%{F#B40174}󰕾%{F-}
 
 ; Right and Middle click (unreleased)
 click-right = pavucontrol &
+
+[module/updown]
+type = internal/network
+interface = wlan0
+interval = 1.0
+label-connected = "  %downspeed%   %upspeed%  "
+label-disconnected = disconnected
+label-connected-background = #FF0000
+
+[module/networkspeedup]
+
+;https://github.com/jaagr/polybar/wiki/Module:-network
+
+type = internal/network
+
+interface = enp0s3
+
+label-connected = "%upspeed:7%"
+
+format-connected = <label-connected>
+
+format-connected-prefix = ""
+
+format-connected-prefix-foreground = #cb410b
+
+format-connected-foreground = ${colors.foreground}
+
+format-connected-background = ${colors.background}
+
+format-connected-underline = #006600
+
+################################################################################
+
+[module/networkspeeddown]
+type = internal/network
+
+interface = wlan0
+label-connected = "%downspeed:7%"
+
+format-connected = <label-connected>
+format-connected-prefix = ""
+
+format-connected-prefix-foreground = #7c0a02
+
+format-connected-foreground = ${colors.foreground}
+
+format-connected-background = ${colors.background}
+
+format-connected-underline = #006600
