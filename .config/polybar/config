@@ -75,7 +75,7 @@ wm-restack = bspwm
 
 modules-left = round-left bspwm round-right empty-space
 modules-center =  
-modules-right = temperature round-left cpu round-right mem network-wlan updown xbacklight alsa battery-internal round-left time  round-right  powermenu
+modules-right = temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight alsa battery-internal round-left time  round-right  powermenu
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono Nerd Font:size=14;4
 font-2 = Material Design Icons:style=Regular:size=9;3
@@ -144,7 +144,9 @@ format-padding = 1
 label = %temperature%
 label-warn = %temperature%
 ; ramp-0 =  "󰜗" 
-ramp-0 =  "❄" 
+; ramp-0 =  "☃" 
+ramp-0 =  "" 
+
 ramp-font = 3
 ramp-foreground = #a4ebf3
 
@@ -233,7 +235,7 @@ format = <label>
 format-background = #2a2e36
 format-foreground = #82868e
 
-date = 󰥔 %H:%M%{F-}
+date = %H:%M%{F-}
 time-alt = 󰃭 %a, %b %d%{F-}
 
 label = %date%%time%
@@ -478,7 +480,8 @@ unknown-as-up = true
 ; Available tags:
 ;   <label-connected> (default)
 ;   <ramp-signal>
-format-connected = %{F#B40174}󰤨%{F-} <label-connected>
+; format-connected = "%{F#B40174}󰤨%{F-} <label-connected> "
+format-connected = "%{F#B40174}%{F-} <label-connected> "
 
 ; Available tags:
 ;   <label-disconnected> (default)
@@ -585,9 +588,12 @@ click-right = pavucontrol &
 type = internal/network
 interface = wlan0
 interval = 1.0
-label-connected = "  %downspeed%   %upspeed%  "
+label-connected = "▲%downspeed% ▼%upspeed%"
 label-disconnected = disconnected
-label-connected-background = #FF0000
+label-connected-background = #2a2e36
+label-connected-foreground = #00F0B5
+; label-connected-background = #FF0000
+
 
 [module/networkspeedup]
 

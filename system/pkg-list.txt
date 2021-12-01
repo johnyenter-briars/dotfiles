@@ -10,6 +10,7 @@ alsa-plugins 1:1.2.5-2
 alsa-topology-conf 1.2.5.1-1
 alsa-ucm-conf 1.2.5.1-1
 alsa-utils 1.2.5.1-1
+android-studio 2020.3.1.25-1
 aom 3.2.0-1
 archlinux-keyring 20211028-1
 argon2 20190702-3
@@ -140,6 +141,14 @@ iputils 20210722-1
 iso-codes 4.8.0-1
 iwd 1.20-1
 jack2 1.9.19-2
+java-environment-common 3-3
+java-runtime-common 3-3
+jdk11-openjdk 11.0.13.u8-1
+jdk8-openjdk 8.u292-1
+jre11-openjdk 11.0.13.u8-1
+jre11-openjdk-headless 11.0.13.u8-1
+jre8-openjdk 8.u292-1
+jre8-openjdk-headless 8.u292-1
 js78 78.15.0-1
 json-c 0.15-2
 json-glib 1.6.6-1
@@ -246,6 +255,7 @@ libmpc 1.2.1-1
 libmpcdec 1:0.1+r475-3
 libmpdclient 2.20-1
 libmpeg2 0.5.1-7
+libnet 1:1.1.6-1
 libnetfilter_conntrack 1.0.8-1
 libnfnetlink 1.0.1-4
 libnftnl 1.2.1-1
@@ -407,6 +417,7 @@ polkit 0.120-2
 polkit-qt5 0.114.0-1
 polybar 3.5.7-1
 popt 1.18-1
+postman-bin 9.2.0-1
 procps-ng 3.3.17-1
 psmisc 23.4-1
 pulseaudio 15.0-1

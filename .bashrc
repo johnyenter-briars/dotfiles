@@ -7,7 +7,8 @@
 
 alias ls='exa'
 PS1='[\u@\h \W]\$ '
-TZ='America/Chicago'
+export TZ='America/Chicago'
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 
 eval "$(starship init bash)"
