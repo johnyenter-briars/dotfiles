@@ -84,6 +84,12 @@ font-4 = "Source Han Sans CN,思源黑体 CN:style=Medium:size=16;3"
 font-5 = mononoki Nerd Font Mono:style=Regular;3
 font-6 = Font Awesome 5 Free,Font Awesome 5 Free Regular:style=Regular
 
+;font-7 = xos4 Terminus:size=12;0
+;font-8 = FontAwesome:size=10;0
+;font-9 = material\-wifi:size=10;0
+;font-10 = Koruri,Koruri Regular:size=7;0
+;font-11 = Noto Color Emoji:style=Book
+
 tray-padding = 1
 
 enable-ipc = true
@@ -145,7 +151,7 @@ label = %temperature%
 label-warn = %temperature%
 ; ramp-0 =  "󰜗" 
 ; ramp-0 =  "☃" 
-ramp-0 =  "" 
+ramp-0 =  "❄" 
 
 ramp-font = 3
 ramp-foreground = #a4ebf3
@@ -203,7 +209,8 @@ format-volume = <label-volume> <bar-volume>
 label-volume = ""  
 label-volume-foreground = ${colors.foreground}
 format-muted-foreground = ${colors.foreground}
-label-muted = 󰚙
+label-muted = 🔇
+
 
 format-muted-padding = 1
 
