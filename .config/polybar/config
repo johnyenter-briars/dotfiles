@@ -77,12 +77,12 @@ modules-left = round-left bspwm round-right empty-space
 modules-center =  
 modules-right = temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight alsa battery-internal round-left time  round-right  powermenu
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
-font-1 = JetBrainsMono Nerd Font:size=14;4
+font-1 = JetBrainsMono Nerd Font:size=10;4
 font-2 = Material Design Icons:style=Regular:size=9;3
 font-3 = unifont:fontformat=truetype:size=9;3
 font-4 = "Source Han Sans CN,思源黑体 CN:style=Medium:size=16;3"
 font-5 = mononoki Nerd Font Mono:style=Regular;3
-font-6 = Font Awesome 5 Free,Font Awesome 5 Free Regular:style=Regular
+font-6 = Font Awesome 5 Free,Font Awesome 5 Free Regular:style=Regular:size=20
 
 ;font-7 = xos4 Terminus:size=12;0
 ;font-8 = FontAwesome:size=10;0
@@ -351,7 +351,7 @@ format-padding = 1module-padding-right = 20
 type = internal/cpu
 interval = 2.5
 
-format-prefix ="  " 
+format-prefix =" " 
 format =  <label> 
 
 label = %percentage%%
