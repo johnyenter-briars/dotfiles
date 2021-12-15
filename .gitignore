@@ -26,3 +26,15 @@ Postman
 mimeapps.list
 QtProject.conf
 BetterDiscord*
+.local/bin/f2py
+.local/bin/f2py3
+.local/bin/f2py3.10
+.local/bin/flask
+.local/bin/fonttools
+.local/bin/move_to_laptop.py
+.local/bin/move_to_laptop.sh
+.local/bin/move_to_laptop_copy.sh
+.local/bin/pyftmerge
+.local/bin/pyftsubset
+.local/bin/ttx
+

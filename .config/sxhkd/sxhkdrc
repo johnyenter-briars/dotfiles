@@ -39,6 +39,18 @@ Print
 	flameshot gui
 
 
+# Testing 
+# super + alt + {1-9}
+#     id=$(bspc query -N -n); bspc node -d ^{1-9}; bspc node -f ${id}
+
+# # move focused window to the next workspace and then switch to that workspace
+# alt + shift + {Left,Right}
+# 	id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
+
+# Focus to next monitor
+super + {Left,Right}
+	bspc monitor --focus {prev,next}
+
 #
 # bspwm hotkeys
 #
