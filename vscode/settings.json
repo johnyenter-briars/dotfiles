@@ -1,0 +1,10 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "python.languageServer": "Pylance",
+    "window.zoomLevel": 1,
+    "gruvboxMaterial.italicKeywords": true,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorTheme": "Gruvbox Material Dark"
+}
