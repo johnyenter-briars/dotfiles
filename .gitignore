@@ -37,4 +37,15 @@ BetterDiscord*
 .local/bin/pyftmerge
 .local/bin/pyftsubset
 .local/bin/ttx
+.config/kconf_updaterc
+.config/kdeglobals
+.config/picom/log
+.local/bin/autopep8
+.local/bin/dmypy
+.local/bin/mypy
+.local/bin/mypyc
+.local/bin/pycodestyle
+.local/bin/pyxel
+.local/bin/stubgen
+.local/bin/stubtest
 

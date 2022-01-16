@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	dmenu_run
+	dmenu_run -nb '#222222' -sf '#eeeeee' -sb '#F26DF9' -nf '#bbbbbb' -fn 'Mononoki Nerd Font:bold:pixelsize=20' -p '>'
 
 # make sxhkd reload its configuration files:
 super + Escape
