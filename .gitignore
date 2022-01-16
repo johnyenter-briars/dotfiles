@@ -3,7 +3,6 @@ dconf
 gtk*
 *.bak
 
-pull_extras.sh
 
 pavucontrol.ini
 pulse
