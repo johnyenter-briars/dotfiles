@@ -1,0 +1,31 @@
+#!/bin/bash
+
+COUNTRY=$1
+
+case $COUNTRY in
+
+    us)
+        nordvpn c United_States
+        ;;
+    fr)
+        nordvpn c France
+        ;;
+    ge)
+        nordvpn c Germany
+        ;;
+    ca)
+        nordvpn c Canada
+        ;;
+    mx)
+        nordvpn c Mexico
+        ;;
+    jp)
+        nordvpn c Japan
+        ;;
+    *)
+        echo "unknown country"
+        ;;
+esac
+
+
+

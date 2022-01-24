@@ -3,9 +3,12 @@ dracula-theme.theme-dracula
 matklad.rust-analyzer
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode.cmake-tools
+ms-vscode.cpptools
 PKief.material-icon-theme
 sainnhe.gruvbox-material
 shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
+twxs.cmake
 vadimcn.vscode-lldb
 vscodevim.vim

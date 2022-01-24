@@ -47,4 +47,6 @@ BetterDiscord*
 .local/bin/pyxel
 .local/bin/stubgen
 .local/bin/stubtest
+.vscode/
 
+.config/google-chrome/
