@@ -1,5 +1,6 @@
 Angular.ng-template
 dracula-theme.theme-dracula
+eamodio.gitlens
 matklad.rust-analyzer
 ms-python.python
 ms-python.vscode-pylance

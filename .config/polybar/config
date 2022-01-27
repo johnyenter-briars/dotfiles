@@ -75,7 +75,7 @@ wm-restack = bspwm
 
 modules-left = round-left bspwm round-right empty-space
 modules-center =  
-modules-right = temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight alsa battery-internal round-left time  round-right  powermenu
+modules-right = round-left vpn round-right temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight alsa battery-internal round-left time round-right powermenu
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono Nerd Font:size=10;4
 font-2 = Material Design Icons:style=Regular:size=9;3
@@ -643,3 +643,14 @@ format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
 
 format-connected-underline = #006600
+
+[module/vpn]
+type = custom/script
+exec = $HOME/.local/bin/nd-polybar
+interval = 5
+format-padding = 1
+
+format = <label> 
+
+format-background = #2a2e36
+format-foreground = #ffb347

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+NORDSTATUS=$(nordvpn status| grep Country)
+
+if [[ $NORDSTATUS ]]; then 
+    IFS=': ' read -ra CONLINE <<< "$NORDSTATUS"
+    echo " ${CONLINE[1]}"
+else
+    echo ""
+fi
+

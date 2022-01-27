@@ -50,3 +50,7 @@ BetterDiscord*
 .vscode/
 
 .config/google-chrome/
+
+.config/autostart/
+.config/font-manager/
+.config/pcloud/
