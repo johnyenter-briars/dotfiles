@@ -10,6 +10,7 @@ alias ls='exa'
 PS1='[\u@\h \W]\$ '
 export TZ='America/Chicago'
 #export _JAVA_AWT_WM_NONREPARENTING=1
+export PATH=$PATH:/home/john/dev/test/git-filter-repo
 
 
 eval "$(starship init bash)"

@@ -61,4 +61,7 @@ tabbed.selbgcolor:   #1e222a
 tabbed.normfgcolor:  #9294a8
 tabbed.normbgcolor:  #282c34
 
-xterm*faceSize: 18
+! xterm*faceSize: 18
+! Use a truetype font and size.
+xterm*faceName: Monospace
+xterm*faceSize: 14

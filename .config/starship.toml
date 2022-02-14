@@ -12,7 +12,7 @@ disabled = false
 # For showing entire dir path - maybe no tnecessary
 [directory]
 truncation_length = 100
-truncate_to_repo = false
+truncate_to_repo = true
 format = "[$path]($style)[$read_only]($read_only_style) "
 
 [battery]
