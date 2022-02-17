@@ -16,7 +16,9 @@ hdmi_active=$(xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}')
 nitrogen --restore --set-zoom-fill &
 
 #set compositor
-killall picom && picom --experimental-backends --config /home/john/.config/picom/picom.conf --log-file /home/john/.config/picom/log &
+killall picom
+
+picom --experimental-backends --config /home/john/.config/picom/picom.conf --log-file /home/john/.config/picom/log 
 
 #get the resources
 xrdb -merge ~/.Xresources
