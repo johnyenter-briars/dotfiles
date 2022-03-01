@@ -14,7 +14,6 @@ export PATH=$PATH:/home/john/dev/test/git-filter-repo
 
 
 eval "$(starship init bash)"
-. "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -43,3 +42,6 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 #PERL_MB_OPT="--install_base \"/home/john/perl5\""; export PERL_MB_OPT;
 #PERL_MM_OPT="INSTALL_BASE=/home/john/perl5"; export PERL_MM_OPT;
 
+
+alias luamake=/home/john/dev/test/lua-language-server/3rd/luamake/luamake
+. "$HOME/.cargo/env"

@@ -1,6 +1,7 @@
 Angular.ng-template
 dracula-theme.theme-dracula
 eamodio.gitlens
+gitkraken.gitkraken-authentication
 matklad.rust-analyzer
 ms-python.python
 ms-python.vscode-pylance
@@ -13,3 +14,4 @@ streetsidesoftware.code-spell-checker
 twxs.cmake
 vadimcn.vscode-lldb
 vscodevim.vim
+yinfei.luahelper

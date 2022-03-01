@@ -16,5 +16,8 @@ require('autopairs-config')
 
 require('whichkey-config')
 
-vim.cmd([[colorscheme gruvbox]])
+require('telescope-config')
 
+require('lsp')
+
+vim.cmd([[colorscheme gruvbox]])
