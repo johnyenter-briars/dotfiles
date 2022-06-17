@@ -2,5 +2,6 @@
 
 
 bluetoothctl power on
-bluetoothctl connect D0:81:7A:09:07:C1
+#bluetoothctl connect D0:81:7A:09:07:C1 && pacmd set-default-sink bluez_sink.D0_81_7A_09_07_C1.a2dp_sink
+bluetoothctl connect 94:F6:D6:09:D3:D7
 

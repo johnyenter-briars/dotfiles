@@ -72,3 +72,12 @@ BetterDiscord*
 .config/Exodus/
 
 .config/libreoffice/
+.config/Metronomek/
+.config/NuGet/
+.config/Webcamoid/
+.config/advanced-rest-client/
+.config/lapce/
+.config/xbuild/
+.config/monero-project/
+
+.dbus/

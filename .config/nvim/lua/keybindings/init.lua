@@ -16,3 +16,6 @@ map('n', '<leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 -- for multi line highlights and multi line tabbing
 -- map('v', '<', '<gv', {noremap = true, silent = false})
 -- map('v', '>', '>gv', {noremap = true, silent = false})
+--
+-- lsp key maps
+map('n', 'gd', ':lua vim.lsp.buf.definition()<CR>', {noremap = true, silent = false})

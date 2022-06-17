@@ -1,0 +1,2 @@
+*/5 * * * * export DISPLAY=:0.0 && /home/john/.local/bin/batterycheck-30
+

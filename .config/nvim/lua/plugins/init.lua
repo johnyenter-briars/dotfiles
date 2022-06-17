@@ -2,7 +2,8 @@ return require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     use 'shaunsingh/nord.nvim'
-    use { 'ellisonleao/gruvbox.nvim' }
+    --use { 'ellisonleao/gruvbox.nvim' }
+    use { 'morhetz/gruvbox' }
     use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
     use {
         'nvim-lualine/lualine.nvim',
@@ -32,5 +33,19 @@ return require('packer').startup(function()
     use {'hrsh7th/cmp-vsnip'}
     use {'hrsh7th/vim-vsnip'}
     use { 'onsails/lspkind-nvim' }
+    use { 'norcalli/nvim-colorizer.lua' }
+    use {
+      'lewis6991/gitsigns.nvim',
+      requires = {
+        'nvim-lua/plenary.nvim'
+      }
+    }
+    use 'tiagovla/tokyodark.nvim'
+    use 'rose-pine/neovim'
+    use 'lukas-reineke/format.nvim'
 
+    use 'simrat39/rust-tools.nvim'
+
+    use 'nvim-lua/plenary.nvim'
+    use 'mfussenegger/nvim-dap'
 end)

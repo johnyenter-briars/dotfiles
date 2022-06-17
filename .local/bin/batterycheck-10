@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PERCENTAGE=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage)
+IFS=': ' read -ra CONLINE <<< "$PERCENTAGE"
+VAL=$(echo "${CONLINE[1]}" | sed 's/%//g')
+THRESHOLD=10
+
+if [ "$VAL" -lt "$THRESHOLD" ]; then
+	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡" 
+    /home/john/.local/bin/alarm 400 200
+    /home/john/.local/bin/alarm 400 200
+    /home/john/.local/bin/alarm 400 200
+fi
+

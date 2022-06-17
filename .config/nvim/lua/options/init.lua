@@ -80,4 +80,6 @@ vim.o.background = "dark" -- or "light" for light mode
 
 
 
+-- Blank Line Options
+
 

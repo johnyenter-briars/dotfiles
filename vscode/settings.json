@@ -9,5 +9,8 @@
     "cmake.configureOnOpen": true,
     "C_Cpp.updateChannel": "Insiders",
     "editor.guides.bracketPairs": true,
+    "editor.rulers": [
+        80
+    ],
     "window.zoomLevel": 1
 }
