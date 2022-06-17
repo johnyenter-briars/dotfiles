@@ -1,14 +1,24 @@
 #!/bin/bash
 
 PERCENTAGE=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage)
+STATE=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state )
 IFS=': ' read -ra CONLINE <<< "$PERCENTAGE"
+IFS=': ' read -ra CHARGING <<< "$STATE"
 VAL=$(echo "${CONLINE[1]}" | sed 's/%//g')
+CHARGINGVAL=$(echo "${CHARGING[1]}" | sed 's/%//g')
 THRESHOLD=10
+CHARGINGCONST="charging"
+
+if [ -r "$HOME/.dbus/Xdbus" ]; then
+  . "$HOME/.dbus/Xdbus"
+fi
+
+if [[ "$CHARGINGVAL" == "$CHARGINGCONST" ]]; then
+	exit 0
+fi
 
 if [ "$VAL" -lt "$THRESHOLD" ]; then
 	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡" 
-    /home/john/.local/bin/alarm 400 200
-    /home/john/.local/bin/alarm 400 200
     /home/john/.local/bin/alarm 400 200
 fi
 
