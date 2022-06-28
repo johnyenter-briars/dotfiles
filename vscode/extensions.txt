@@ -3,6 +3,7 @@ aliasadidev.nugetpackagemanagergui
 Angular.ng-template
 dracula-theme.theme-dracula
 eamodio.gitlens
+GitHub.copilot
 josetr.cmake-language-support-vscode
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
