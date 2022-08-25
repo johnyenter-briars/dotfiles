@@ -79,5 +79,8 @@ BetterDiscord*
 .config/lapce/
 .config/xbuild/
 .config/monero-project/
+.config/Ryujinx/
+.config/GIMP/
+.config/nomacs/
 
 .dbus/
