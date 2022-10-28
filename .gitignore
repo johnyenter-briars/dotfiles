@@ -91,3 +91,5 @@ BetterDiscord*
 system/X11/xinit/xinitrc.d/80xapp-gtk3-module.sh
 
 .dbus/
+
+.local/bin/*p*
