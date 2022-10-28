@@ -1,4 +1,8 @@
 #!/bin/sh
 
+killall spotify-qt
+killall spotify-qt
+
 restartspotify
+
 spotify-qt

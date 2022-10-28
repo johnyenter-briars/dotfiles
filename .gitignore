@@ -83,4 +83,11 @@ BetterDiscord*
 .config/GIMP/
 .config/nomacs/
 
+.config/JetBrains/
+.config/asunder/
+.config/pmbootstrap.cfg
+.local/bin/chardetect
+.local/bin/pmbootstrap
+system/X11/xinit/xinitrc.d/80xapp-gtk3-module.sh
+
 .dbus/

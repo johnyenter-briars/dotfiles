@@ -16,9 +16,11 @@ root16.bamboo-pa-vscode
 rust-lang.rust-analyzer
 sainnhe.gruvbox-material
 scala-lang.scala
+shakram02.bash-beautify
 shd101wyy.markdown-preview-enhanced
 twxs.cmake
 vadimcn.vscode-lldb
+VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
