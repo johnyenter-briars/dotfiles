@@ -14,5 +14,6 @@
     ],
     "editor.inlineSuggest.enabled": true,
     "debug.allowBreakpointsEverywhere": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always"
 }

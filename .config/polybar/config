@@ -75,7 +75,7 @@ wm-restack = bspwm
 
 modules-left = round-left bspwm round-right empty-space
 modules-center =  
-modules-right = bluetooth round-left vpn round-right temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight alsa battery-internal round-left time round-right powermenu
+modules-right = round-left vpn round-right temperature round-left cpu round-right mem network-wlan round-left updown round-right xbacklight bluetooth alsa battery-internal round-left time round-right powermenu
 font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono Nerd Font:size=10;4
 font-2 = Material Design Icons:style=Regular:size=9;3
