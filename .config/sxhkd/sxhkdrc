@@ -38,6 +38,10 @@ XF86MonBrightnessUp
 Print
 	flameshot gui
 
+# toggle bluetooth
+super + shift + b
+	bt-toggle
+
 
 # Testing 
 # super + alt + {1-9}
