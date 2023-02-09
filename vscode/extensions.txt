@@ -6,6 +6,7 @@ eamodio.gitlens
 josetr.cmake-language-support-vscode
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cmake-tools
@@ -18,6 +19,7 @@ sainnhe.gruvbox-material
 scala-lang.scala
 shakram02.bash-beautify
 shd101wyy.markdown-preview-enhanced
+streetsidesoftware.code-spell-checker
 twxs.cmake
 vadimcn.vscode-lldb
 VisualStudioExptTeam.intellicode-api-usage-examples
