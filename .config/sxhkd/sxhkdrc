@@ -42,6 +42,10 @@ Print
 super + shift + b
 	bt-toggle
 
+# lock screen
+super + l
+	light-locker-command --lock
+
 
 # Testing 
 # super + alt + {1-9}

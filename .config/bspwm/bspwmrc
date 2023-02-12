@@ -10,6 +10,9 @@ $HOME/.config/polybar/launch.sh
 
 /home/john/.local/bin/setmouseaccel
 
+# light locker or lock screen
+/usr/bin/light-locker &
+
 hdmi_active=$(xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}')
 
 #wallpaper
