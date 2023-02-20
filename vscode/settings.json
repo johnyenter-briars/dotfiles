@@ -7,7 +7,6 @@
     "editor.bracketPairColorization.enabled": true,
     "workbench.colorTheme": "Gruvbox Material Dark",
     "cmake.configureOnOpen": true,
-    "C_Cpp.updateChannel": "Insiders",
     "editor.guides.bracketPairs": true,
     "editor.rulers": [
         80
@@ -16,5 +15,23 @@
     "debug.allowBreakpointsEverywhere": true,
     "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
     "vim.showMarksInGutter": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "c-r"
+            ],
+            "commands": [
+                "redo"
+            ]
+        }
+    ],
 }

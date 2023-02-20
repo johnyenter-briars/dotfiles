@@ -43,7 +43,7 @@ super + shift + b
 	bt-toggle
 
 # lock screen
-super + shift + l
+super + alt + l
 	light-locker-command --lock
 
 
