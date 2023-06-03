@@ -15,7 +15,6 @@
     "debug.allowBreakpointsEverywhere": true,
     "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
     "vim.showMarksInGutter": true,
-    "window.zoomLevel": 1,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -34,4 +33,9 @@
             ]
         }
     ],
+    "git.openRepositoryInParentFolders": "never",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.zoomLevel": 1,
 }

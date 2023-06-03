@@ -18,7 +18,7 @@ if [[ "$CHARGINGVAL" == "$CHARGINGCONST" ]]; then
 fi
 
 if [ "$VAL" -lt "$THRESHOLD" ]; then
-	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡" 
-    /home/john/.local/bin/alarm 400 200
+	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡"
+  	paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga
 fi
 
