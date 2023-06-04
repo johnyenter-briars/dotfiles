@@ -21,4 +21,3 @@ if [ "$VAL" -lt "$THRESHOLD" ]; then
 	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡"
   	paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga
 fi
-
