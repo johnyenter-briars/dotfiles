@@ -11,6 +11,8 @@ ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cmake-tools
 ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
 PKief.material-icon-theme
 redhat.java
 root16.bamboo-pa-vscode

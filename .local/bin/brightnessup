@@ -1,4 +1,13 @@
 #!/bin/bash
 
+current_brightness=$(xbacklight -get)
 
-xbacklight -inc 1
+echo $current_brightness
+
+if [ "$current_brightness" -gt "19" ]; then
+    xbacklight -inc 10
+else
+    xbacklight -inc 1
+fi
+
+

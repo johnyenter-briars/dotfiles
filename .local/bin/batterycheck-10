@@ -9,6 +9,10 @@ CHARGINGVAL=$(echo "${CHARGING[1]}" | sed 's/%//g')
 THRESHOLD=10
 CHARGINGCONST="charging"
 
+
+current_time=$(date +%H%M)  # Get current time in 24-hour format without separators
+threshold_time="2100"        # 9:00 PM in 24-hour format
+
 if [ -r "$HOME/.dbus/Xdbus" ]; then
   . "$HOME/.dbus/Xdbus"
 fi
@@ -19,5 +23,8 @@ fi
 
 if [ "$VAL" -lt "$THRESHOLD" ]; then
 	notify-send "⚡Battery percentage is below: $THRESHOLD%! Find power immediately bro!⚡"
-  	paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga
+
+	# if [ "$current_time" -lt "$threshold_time" ]; then
+  	# 	paplay /usr/share/sounds/freedesktop/stereo/message-new-instant.oga --volume=99999
+	# fi
 fi

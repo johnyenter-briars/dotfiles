@@ -46,3 +46,7 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 alias luamake=/home/john/dev/test/lua-language-server/3rd/luamake/luamake
 . "$HOME/.cargo/env"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
