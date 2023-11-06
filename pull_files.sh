@@ -7,7 +7,6 @@ cp ~/.Xresources .
 cp ~/.Xresources-hdmi .
 cp ~/.xinitrc .
 cp ~/.xprofile .
-cp -r ~/.vscode .
 
 cp -r  ~/.local/bin/* .local/bin/
 
@@ -22,6 +21,11 @@ code --list-extensions > vscode/extensions.txt
 #to install: --install-extension <ext> see 'code --help'
 cp ~/.config/Code/User/keybindings.json vscode/keybindings.json
 cp ~/.config/Code/User/settings.json vscode/settings.json
+
+rm -r .config/Code
+rm -r .config/google-chrome
+rm -r .config/discord
+yes | rm -r .vscode/
 
 crontab -l > ./cron/currentcrontab
 
