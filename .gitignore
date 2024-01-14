@@ -51,6 +51,7 @@ BetterDiscord*
 .config/pmbootstrap.cfg
 .config/menus/
 .config/obsidian/
+.config/wireshark/
 
 
 .local/bin/chardetect

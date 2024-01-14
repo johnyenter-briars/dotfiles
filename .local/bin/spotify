@@ -5,4 +5,4 @@ killall spotify-qt
 
 restartspotify
 
-/home/john/dev/spotify-qt/build/spotify-qt
+spotify-qt
